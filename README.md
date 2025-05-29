@@ -38,12 +38,20 @@ https://github.com/4AL22CS045/Product_Management_System_Java/blob/main/dao/DataB
 MySQL DATABASE :
 
 CREATE DATABASE productdb;
+
 use productdb;
+
 CREATE TABLE Products (
+
 ProductID INT PRIMARY KEY,
+
 ProductName VARCHAR(100),
+
 Category VARCHAR(50),
+
 Price DECIMAL(10,2),
+
 Quantity INT
+
 );
 
