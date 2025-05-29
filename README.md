@@ -31,3 +31,19 @@ https://github.com/4AL22CS045/Product_Management_System_Java/blob/main/servlet/P
 
 #Product Report(Report page):
 https://github.com/4AL22CS045/Product_Management_System_Java/blob/main/servlet/Generate%20Reports.png
+
+#DataBase
+https://github.com/4AL22CS045/Product_Management_System_Java/blob/main/dao/DataBase.png
+
+MySQL DATABASE :
+
+CREATE DATABASE productdb;
+use productdb;
+CREATE TABLE Products (
+ProductID INT PRIMARY KEY,
+ProductName VARCHAR(100),
+Category VARCHAR(50),
+Price DECIMAL(10,2),
+Quantity INT
+);
+
